@@ -22,6 +22,6 @@
       "value": {"65%"}
     },
     "@context": [
-      "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/38969d8d7fce9f80533e33e63befe191ddfaebe5/context.json"
+      "https://raw.githubusercontent.com/satrai-lab/data-models/main/device-models/context.json"
     ]
   }

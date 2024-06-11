@@ -196,7 +196,7 @@ components:
         x-ngsi:
           type: Geoproperty         
       x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/Building/type-definitions.json"             
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/Building/type-definitions.json"             
     Building:
       allOf:
         - $ref: "https://smart-data-models.github.io/dataModel.Building/Building/model.yaml#/Building"
@@ -208,7 +208,7 @@ components:
           x-ngsi:
             type: "Relationship"
       x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/Building/type-definitions.json"           
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/Building/type-definitions.json"           
     Floor:
       required:
         - id
@@ -436,7 +436,7 @@ components:
             type: Property
       type: object
       x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/Building/type-definitions.json"
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/Building/type-definitions.json"
     Zone:
       required:
         - id
@@ -511,7 +511,7 @@ components:
             type: Relationship
       type: object
       x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/Building/type-definitions.json"
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/Building/type-definitions.json"
     Room:
       required:
         - id
@@ -571,8 +571,8 @@ components:
                 description: "Property. Unique identifier of the entity"
           x-ngsi:
             type: "Relationship"
-        sensors:
-          description: "This property enlists the sensors deployed in the room."
+        devices:
+          description: "This property enlists the devices deployed in the room."
           "type": "array"
           x-ngsi:
             type: Relationship
@@ -586,6 +586,11 @@ components:
           "type": "array"
           x-ngsi:
             type: Relationship
+        stairsInRoom:
+          description: "This property enlists the windows in a room."
+          "type": "array"
+          x-ngsi:
+            type: Relationship    
         relativePosition:
           description: "This property describes the relative position of a floor in 2D. This can be a Point, LineString, MultiLineString, Polygon or Trimesh"
           type: object
@@ -613,7 +618,7 @@ components:
             type: Property
       type: object
       x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/Building/type-definitions.json"
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/Building/type-definitions.json"
     Door:
       required:
         - id
@@ -672,7 +677,7 @@ components:
             type: Property
       type: object
       x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/Building/type-definitions.json"
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/Building/type-definitions.json"
     Window:
       required:
         - id
@@ -731,7 +736,7 @@ components:
             type: Property
       type: object
       x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/Building/type-definitions.json"
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/Building/type-definitions.json"
     Stair:
       required:
         - id
@@ -790,7 +795,7 @@ components:
             type: Property
       type: object
       x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/Building/type-definitions.json"    
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/Building/type-definitions.json"    
 info:
   description: "Data Models used for Buildings"
   title: BuildingModeling

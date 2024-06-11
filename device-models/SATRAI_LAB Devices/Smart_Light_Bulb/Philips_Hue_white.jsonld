@@ -93,6 +93,6 @@
     },
     "@context": [
       "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
-      "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/device-models/context.json"
+      "https://raw.githubusercontent.com/satrai-lab/data-models/main/device-models/context.json"
     ]
   }

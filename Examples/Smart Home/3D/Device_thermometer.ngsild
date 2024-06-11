@@ -14,6 +14,6 @@
     "object": ["urn:ngsi-ld:Room:Test:SmartCitiesdomain:SmartBuildings:1OKccvw796O94cljFtqofp"]
   },	
   "@context": [
-    "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/device-models/context.json"
+    "https://raw.githubusercontent.com/satrai-lab/data-models/main/device-models/context.json"
   ]
 }

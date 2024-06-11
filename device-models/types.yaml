@@ -87,7 +87,7 @@ components:
           x-ngsi:
             type: Property               
       x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/device-models/context.json"            
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/device-models/context.json"            
     Observation:
       required:
         - id
@@ -145,7 +145,7 @@ components:
           x-ngsi:
             type: Property
       x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/device-models/context.json"
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/device-models/context.json"
     Actuation:
       required:
         - id
@@ -203,7 +203,7 @@ components:
             x-ngsi:
               type: Property
       x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/device-models/context.json"
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/device-models/context.json"
     Smart-Light-Bulb:
       required:
         - id
@@ -356,7 +356,7 @@ components:
           x-ngsi:
             type: Property
       x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/device-models/context.json"
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/device-models/context.json"
   Smart-Thermostat:
     required:
       - id
@@ -484,7 +484,7 @@ components:
           x-ngsi:
             type: Property    
       x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/device-models/context.json"
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/device-models/context.json"
     Bin:
       required:
         - id
@@ -601,5 +601,5 @@ components:
             type: Property
       type: object
       x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/device-models/context.json"
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/device-models/context.json"
    

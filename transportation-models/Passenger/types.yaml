@@ -213,7 +213,7 @@ components:
         x-ngsi:
           type: Geoproperty         
       x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/transportation-models/Passenger/type-definitions.json"             
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/transportation-models/Passenger/type-definitions.json"             
     Passenger_Intention:
       description: 'Information about passenger movement intentions (passenger, itinerary snapshot,boarding stop, disembarkation stop,etc.).'
       required:
@@ -277,7 +277,7 @@ components:
           x-ngsi:
             type: "Relationship"                    
         x-ngsi:
-        uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/transportation-models/Passenger/type-definitions.json"
+        uri-prefix: "https://raw.githubusercontent.com/satrai-lab/data-models/main/transportation-models/Passenger/type-definitions.json"
 info:
   description: "Data Models used for passengers of smart public transportation"
   title: Transport-PassengerModels

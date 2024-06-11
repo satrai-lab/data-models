@@ -278,7 +278,10 @@
                 "windowsInRoom": {
                     "type": "array"
                 },
-                "sensors": {
+                "stairsInRoom": {
+                    "type": "array"
+                },
+                "devices": {
                     "type": "array"
                 }
             }
