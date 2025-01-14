@@ -73,6 +73,11 @@ Bus:
       description: "Property. The date the item e.g. vehicle was purchased by the current owner. Model:'https://schema.org/purchaseDate'."
       x-ngsi:
         type: Property
+    capacity:
+      type: number
+      description: "Property. The total number of possible occupants inside a bus"
+      x-ngsi:
+        type: Property    
     mileageFromOdometer:
       type: number
       description: "Property. The total distance travelled by the particular vehicle since its initial production, as read from its odometer. Model:'https://schema.org/mileageFromOdometer'."
