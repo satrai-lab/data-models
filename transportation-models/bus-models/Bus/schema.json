@@ -73,6 +73,10 @@
       "type": "number",
       "description": "Property. The total distance travelled by the particular vehicle since its initial production, as read from its odometer. Model:'https://schema.org/mileageFromOdometer'."
     },
+    "capacity": {
+      "type": "number",
+      "description": "Property. The total number of possible occupants inside a bus."
+    },
     "vehicleConfiguration": {
       "type": "string",
       "description": "Property. A short text indicating the configuration of the vehicle, e.g. '5dr hatchback ST 2.5 MT 225 hp' or 'limited edition'. Model:'https://schema.org/vehicleConfiguration'."
