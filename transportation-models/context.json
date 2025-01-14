@@ -9,6 +9,7 @@
 		"vehicleRunningStatus": "https://raw.githubusercontent.com/satrai-lab/data-models/main/transportation-models/bus-models/Bus/schema.json#vehicleRunningStatus",
 		"zoneName": "https://raw.githubusercontent.com/satrai-lab/data-models/main/transportation-models/bus-models/Bus/schema.json#zoneName",
 		"vehicleAltitude": "https://raw.githubusercontent.com/satrai-lab/data-models/main/transportation-models/bus-models/Bus/schema.json#vehicleAltitude",
+		"capacity": "https://raw.githubusercontent.com/satrai-lab/data-models/main/transportation-models/bus-models/Bus/schema.json#capacity",
 		"observationDateTime": "https://raw.githubusercontent.com/satrai-lab/data-models/main/transportation-models/bus-models/Bus/schema.json#observationDateTime",
 		"deviceSimNumber": "https://raw.githubusercontent.com/satrai-lab/data-models/main/transportation-models/bus-models/Bus/schema.json#deviceSimNumber",
 		"wardName": "https://raw.githubusercontent.com/satrai-lab/data-models/main/transportation-models/bus-models/Bus/schema.json#wardName",
